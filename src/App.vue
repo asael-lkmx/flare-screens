@@ -18,14 +18,8 @@
         </Block>
         <Block>
           <div class="page__content">
-            <div class="page__content__inputs">
-              <div v-for="(screen, name) in screens" :key="name">
-                  <input type="radio" :id="{name}" :value="{name}" v-model="screenSelected" />
-                  <label :for="{name}">{{name}}</label>
-              </div>
-            </div>
             <div class="page__content__screens">
-              <small-component :screens="screens[screenSelected.name]"></small-component>
+              <small-component :screens="screens"></small-component>
             </div>
           </div>
         </Block>
@@ -42,50 +36,44 @@ export default {
     return {
       width: 0,
       screenSelected: {name: "small"},
-      screens: {
-        small: [
-          "xxs",
-          "xs",
-          "xs and down",
-          "<=xs",
-          "s",
-          "s and up",
-          ">=s",
-          ">xs",
-          "s and down",
-          "<=s",
-          ">s",
-        ],
-        medium: [
-          "<m",
-          "m",
-          "m and up",
-          ">=m",
-          "m and down",
-          "<=m",
-          ">m",
-        ],
-        large: [
-          "l",
-          "l and up",
-          ">=l",
-          "l and down",
-          "<=l",
-          "xl",
-          "xl and down",
-          "<=xl",
-          "xl and up",
-          ">=xl",
-          ">l",
-          "xxl",
-          "xxl and down",
-          "<=xxl",
-          "xxl and up",
-          ">=xxl",
-          ">xl",
-          "xxxl",
-        ]
-      }
+      screens: [
+        "xxs",
+        "xs",
+        "xs and down",
+        "<=xs",
+        "s",
+        "s and up",
+        ">=s",
+        ">xs",
+        "s and down",
+        "<=s",
+        ">s",
+        "<m",
+        "m",
+        "m and up",
+        ">=m",
+        "m and down",
+        "<=m",
+        ">m",
+        "l",
+        "l and up",
+        ">=l",
+        "l and down",
+        "<=l",
+        "xl",
+        "xl and down",
+        "<=xl",
+        "xl and up",
+        ">=xl",
+        ">l",
+        "xxl",
+        "xxl and down",
+        "<=xxl",
+        "xxl and up",
+        ">=xxl",
+        ">xl",
+        "xxxl"
+      ]
     }
   },
   created() {

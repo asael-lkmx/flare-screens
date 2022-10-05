@@ -1,21 +1,42 @@
 .\<m {
-    @include respond-to("<m") { background-color: #0B0E29 !important }
+    @include respond-to("<m") {
+        background-color: #1324A0 !important;
+        display: grid !important;
+    }
 }
 .m {
-    @include respond-to("m") { background-color: #0B0E29 !important }
+    @include respond-to("m") {
+        background-color: #1324A0 !important;
+        display: grid !important;
+    }
 }
 .m_and_up {
-    @include respond-to("m and up") { background-color: #0B0E29 !important }
+    @include respond-to("m and up") {
+        background-color: #1324A0 !important;
+        display: grid !important;
+    }
 }
 .\>\=m {
-    @include respond-to(">=m") { background-color: #0B0E29 !important }
+    @include respond-to(">=m") {
+        background-color: #1324A0 !important;
+        display: grid !important;
+    }
 }
 .m_and_down {
-    @include respond-to("m and down") { background-color: #0B0E29 !important }
+    @include respond-to("m and down") {
+        background-color: #1324A0 !important;
+        display: grid !important;
+    }
 }
 .\<\=m {
-    @include respond-to("<=m") { background-color: #0B0E29 !important }
+    @include respond-to("<=m") {
+        background-color: #1324A0 !important;
+        display: grid !important;
+    }
 }
 .\>m {
-    @include respond-to(">m") { background-color: #0B0E29 !important }
+    @include respond-to(">m") {
+        background-color: #1324A0 !important;
+        display: grid !important;
+    }
 }

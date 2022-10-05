@@ -1,33 +1,66 @@
 .xxs {
-    @include respond-to("xxs") { background-color: #0B0E29 !important }
+    @include respond-to("xxs") {
+            background-color: #00D0F6 !important;
+            display: grid !important;
+        }
 }
 .xs {
-    @include respond-to("xs") { background-color: #0B0E29 !important }
+    @include respond-to("xs") {
+        background-color: #00D0F6 !important;
+        display: grid !important;
+    }
 }
 .xs_and_down {
-    @include respond-to("xs and down") { background-color: #0B0E29 !important }
+    @include respond-to("xs and down") {
+        background-color: #00D0F6 !important;
+        display: grid !important;
+    }
 }
 .\<\=xs {
-    @include respond-to("<=xs") { background-color: #0B0E29 !important }
+    @include respond-to("<=xs") {
+        background-color: #00D0F6 !important;
+        display: grid !important;
+    }
 }
 .s {
-    @include respond-to("s") { background-color: #0B0E29 !important }
+    @include respond-to("s") {
+        background-color: #00D0F6 !important;
+        display: grid !important;
+    }
 }
 .s_and_up {
-    @include respond-to("s and up") { background-color: #0B0E29 !important }
+    @include respond-to("s and up") {
+        background-color: #00D0F6 !important;
+        display: grid !important;
+    }
 }
 .\>\=s {
-    @include respond-to(">=s") { background-color: #0B0E29 !important }
+    @include respond-to(">=s") {
+        background-color: #00D0F6 !important;
+        display: grid !important;
+    }
 }
 .\>xs {
-    @include respond-to(">xs") { background-color: #0B0E29 !important }
+    @include respond-to(">xs") {
+        background-color: #00D0F6 !important;
+        display: grid !important;
+    }
 }
 .s_and_down {
-    @include respond-to("s and down") { background-color: #0B0E29 !important }
+    @include respond-to("s and down") {
+        background-color: #00D0F6 !important;
+        display: grid !important;
+    }
 }
 .\<\=s {
-    @include respond-to("<=s") { background-color: #0B0E29 !important }
+    @include respond-to("<=s") {
+        background-color: #00D0F6 !important;
+        display: grid !important;
+    }
 }
 .\>s {
-    @include respond-to(">s") { background-color: #0B0E29 !important }
+    @include respond-to(">s") {
+        background-color: #00D0F6 !important;
+        display: grid !important;
+    }
 }

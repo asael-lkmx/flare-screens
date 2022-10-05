@@ -1,54 +1,108 @@
 .l {
-    @include respond-to("l") { background-color: #0B0E29 !important }
+    @include respond-to("l") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .l_and_up {
-    @include respond-to("l and up") { background-color: #0B0E29 !important }
+    @include respond-to("l and up") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .\>\=l {
-    @include respond-to(">=l") { background-color: #0B0E29 !important }
+    @include respond-to(">=l") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .l_and_down {
-    @include respond-to("l and down") { background-color: #0B0E29 !important }
+    @include respond-to("l and down") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .\<\=l {
-    @include respond-to("<=l") { background-color: #0B0E29 !important }
+    @include respond-to("<=l") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .xl {
-    @include respond-to("xl") { background-color: #0B0E29 !important }
+    @include respond-to("xl") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .xl_and_down {
-    @include respond-to("xl and down") { background-color: #0B0E29 !important }
+    @include respond-to("xl and down") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .\<\=xl {
-    @include respond-to("<=xl") { background-color: #0B0E29 !important }
+    @include respond-to("<=xl") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .xl_and_up {
-    @include respond-to("xl and up") { background-color: #0B0E29 !important }
+    @include respond-to("xl and up") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .\>\=xl {
-    @include respond-to(">=xl") { background-color: #0B0E29 !important }
+    @include respond-to(">=xl") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .\>l {
-    @include respond-to(">l") { background-color: #0B0E29 !important }
+    @include respond-to(">l") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .xxl {
-    @include respond-to("xxl") { background-color: #0B0E29 !important }
+    @include respond-to("xxl") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .xxl_and_down {
-    @include respond-to("xxl and down") { background-color: #0B0E29 !important }
+    @include respond-to("xxl and down") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .\<\=xxl {
-    @include respond-to("<=xxl") { background-color: #0B0E29 !important }
+    @include respond-to("<=xxl") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .xxl_and_up {
-    @include respond-to("xxl and up") { background-color: #0B0E29 !important }
+    @include respond-to("xxl and up") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .\>\=xxl {
-    @include respond-to(">=xxl") { background-color: #0B0E29 !important }
+    @include respond-to(">=xxl") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .\>xl {
-    @include respond-to(">xl") { background-color: #0B0E29 !important }
+    @include respond-to(">xl") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }
 .xxxl {
-    @include respond-to("xxxl") { background-color: #0B0E29 !important }
+    @include respond-to("xxxl") {
+        display: grid !important;
+        background-color: #0B0E29 !important;
+    }
 }

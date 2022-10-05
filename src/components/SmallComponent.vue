@@ -26,7 +26,7 @@ export default {
   border-radius: .5rem;
   background-color: #1324A0;
   height: 100px;
-  display: grid;
+  display: none;
   align-items: center;
   justify-items: center;
   h5 { color: white }
