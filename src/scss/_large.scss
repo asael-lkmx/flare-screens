@@ -1,0 +1,54 @@
+.l {
+    @include respond-to("l") { background-color: #0B0E29 !important }
+}
+.l_and_up {
+    @include respond-to("l and up") { background-color: #0B0E29 !important }
+}
+.\>\=l {
+    @include respond-to(">=l") { background-color: #0B0E29 !important }
+}
+.l_and_down {
+    @include respond-to("l and down") { background-color: #0B0E29 !important }
+}
+.\<\=l {
+    @include respond-to("<=l") { background-color: #0B0E29 !important }
+}
+.xl {
+    @include respond-to("xl") { background-color: #0B0E29 !important }
+}
+.xl_and_down {
+    @include respond-to("xl and down") { background-color: #0B0E29 !important }
+}
+.\<\=xl {
+    @include respond-to("<=xl") { background-color: #0B0E29 !important }
+}
+.xl_and_up {
+    @include respond-to("xl and up") { background-color: #0B0E29 !important }
+}
+.\>\=xl {
+    @include respond-to(">=xl") { background-color: #0B0E29 !important }
+}
+.\>l {
+    @include respond-to(">l") { background-color: #0B0E29 !important }
+}
+.xxl {
+    @include respond-to("xxl") { background-color: #0B0E29 !important }
+}
+.xxl_and_down {
+    @include respond-to("xxl and down") { background-color: #0B0E29 !important }
+}
+.\<\=xxl {
+    @include respond-to("<=xxl") { background-color: #0B0E29 !important }
+}
+.xxl_and_up {
+    @include respond-to("xxl and up") { background-color: #0B0E29 !important }
+}
+.\>\=xxl {
+    @include respond-to(">=xxl") { background-color: #0B0E29 !important }
+}
+.\>xl {
+    @include respond-to(">xl") { background-color: #0B0E29 !important }
+}
+.xxxl {
+    @include respond-to("xxxl") { background-color: #0B0E29 !important }
+}
