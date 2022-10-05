@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@lkmx/flare": "^0.5.14",
-    "@lkmx/flare-vue": "^0.1.23",
+    "@lkmx/flare": "^0.5.20",
+    "@lkmx/flare-vue": "^0.1.30",
     "vue": "^3.2.37"
   },
   "devDependencies": {

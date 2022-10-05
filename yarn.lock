@@ -17,20 +17,20 @@
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.15.10.tgz#78a42897c2cf8db9fd5f1811f7590393b77774c7"
   integrity sha512-w0Ou3Z83LOYEkwaui2M8VwIp+nLi/NA60lBLMvaJ+vXVMcsARYdEzLNE7RSm4+lSg4zq4d7fAVuzk7PNQ5JFgg==
 
-"@lkmx/flare-vue@^0.1.23":
-  version "0.1.23"
-  resolved "https://registry.yarnpkg.com/@lkmx/flare-vue/-/flare-vue-0.1.23.tgz#c429febc4aa45d7d1c46d161405b7aa48a6ca0ad"
-  integrity sha512-aiBxWTuHbrOjS86W4REYQbozNMImoQDBvHcTnoxvI7EjgjjW6VjEJmRNkISmVkU2cX6tMFQ0IF1hFqgoi9njcQ==
+"@lkmx/flare-vue@^0.1.30":
+  version "0.1.30"
+  resolved "https://registry.yarnpkg.com/@lkmx/flare-vue/-/flare-vue-0.1.30.tgz#57daae21950b3f7520a3fc3405d8b09633eb8512"
+  integrity sha512-V7M+tEqDvxo6yqWEwBkb0X/Ugmx2A5CXpy+9xgzXrZ3XvS+slbZNknTljjT2KblBVqT8iNRN5o+Lia9pRgLmBg==
   dependencies:
-    "@lkmx/flare" "^0.5.12"
+    "@lkmx/flare" "^0.5.20"
     sass "^1.50.0"
     sass-loader "^12.6.0"
     vue "^3.2.33"
 
-"@lkmx/flare@^0.5.12", "@lkmx/flare@^0.5.14":
-  version "0.5.14"
-  resolved "https://registry.yarnpkg.com/@lkmx/flare/-/flare-0.5.14.tgz#3ec0307c52d3e64b694cdfea9996e0ef832c4b4a"
-  integrity sha512-/UVpGBAQKkHKcEnIiXpKum7WcS4Vhs/UVx/0IYghWDt2V0YubyjpepehNBxQPHEiKzS0qIg35M0gfAxqNwWwaw==
+"@lkmx/flare@^0.5.20":
+  version "0.5.20"
+  resolved "https://registry.yarnpkg.com/@lkmx/flare/-/flare-0.5.20.tgz#7416be7d69a44b4294c0468d83cc84d7104a8db2"
+  integrity sha512-RV8Vpq56ecix0Q19Oy7fEDIWszqfkSNim7OOtTOuEYgy2nmo0j+/Cq5M2ufnx4Dp5K/sWbuJl+KzkpH64wxnLg==
   dependencies:
     sass "^1.50.0"
     sass-loader "^12.6.0"
