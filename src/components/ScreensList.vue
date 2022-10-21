@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-  name: 'SmallComponent',
+  name: 'ScreensList',
   props: {
     screens: {
       type: Array,

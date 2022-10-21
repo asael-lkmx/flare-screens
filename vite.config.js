@@ -13,8 +13,7 @@ export default defineConfig({
     preprocessorOptions: {
       scss: {
         additionalData: `
-          @import "@lkmx/flare/src/_rem.scss";
-          @import "@lkmx/flare/src/responsiveness/_respond_to.scss";
+          @import "@lkmx/flare/mixins";
         `
       }
     }

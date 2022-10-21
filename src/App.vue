@@ -19,7 +19,7 @@
         <Block>
           <div class="page__content">
             <div class="page__content__screens">
-              <small-component :screens="screens"></small-component>
+              <screens-list :screens="screens"></screens-list>
             </div>
           </div>
         </Block>
@@ -27,11 +27,11 @@
     </Page>
 </template>
 <script>
-import SmallComponent from "./components/SmallComponent.vue";
+import ScreensList from "./components/ScreensList.vue";
 
 export default {
   name: 'App',
-  components: { SmallComponent },
+  components: { ScreensList },
   data() {
     return {
       width: 0,
