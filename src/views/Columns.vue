@@ -27,7 +27,7 @@
       <Block>Column 2</Block>
     </Column>
 
-    <h2>Slim</h2>
+    <h2>Mode: Slim</h2>
     <h3>weight: Normal</h3>
     <Column number="2" mode="slim">
       <Block>Column 1</Block>
